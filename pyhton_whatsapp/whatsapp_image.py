@@ -12,9 +12,9 @@ import argparse
 from selenium.common.exceptions import NoSuchElementException
 #import webbrowser as web
 import time
-driver = webdriver.Chrome("C:/Users/lenovo/Documents/pyhton_whatsapp/chromedriver.exe")#add chromedriver.exe path
+driver = webdriver.Chrome("enter your file path/chromedriver.exe")#add chromedriver.exe path
 driver.get('https://web.whatsapp.com/')
-filepath = input("enter image path: ") #enter the image path after scanning the qrcode
+filepath = input("enter image path and press enter: ") #enter the image path after scanning the qrcode
 
 #parser = argparse.ArgumentParser(description='PyWhatsapp Guide')
 #parser.add_argument('--chrome_driver_path', action='store', type=str, default=chrome_default_path,help='chromedriver executable path (MAC and Windows path would be different)')
